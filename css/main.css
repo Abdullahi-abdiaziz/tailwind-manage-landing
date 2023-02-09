@@ -589,6 +589,10 @@ html {
   display: none;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -611,6 +615,10 @@ html {
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -793,6 +801,10 @@ html {
     justify-content: flex-start;
   }
 
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -812,6 +824,11 @@ html {
   .md\:py-1 {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
+  }
+
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .md\:text-left {
