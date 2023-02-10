@@ -38,6 +38,7 @@ body {
     height: 24px;
     transition: all .25s;
     position: relative;
+    border-radius: 4px;
 }
 .hamburger-top,
 .hamburger-middle,
@@ -46,10 +47,11 @@ body {
     top: 0;
     left: 0;
     width: 24px;
-    height: 2px;
+    height: 3px;
     background: #000;
     transform: rotate(0);
     transition: all .5s;
+    border-radius: 50px;
 }
 .hamburger-middle {
     transform: translateY(7px);
